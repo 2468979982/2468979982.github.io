@@ -1,5 +1,5 @@
 ---
-title: 认证服务器前后端分离ANT DESIGN PRO
+title: OAuth2 Server 和Ant Design Pro
 date: 2025-06-20 16:45:49
 tags: ['OAuth2', 'SpringSecurity','AntDesignPro']
 draft: false
