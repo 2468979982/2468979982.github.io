@@ -20,7 +20,7 @@ authors: ['default']
 
 
 
-**### 授权流程**
+### 授权流程
 
 
 
@@ -32,7 +32,7 @@ authors: ['default']
 
 
 
-**#### 客户端主要配置**
+#### 客户端主要配置
 
 
 
@@ -42,7 +42,7 @@ authors: ['default']
 
 yaml配置，客户端不直接与认证服务器后端交互，而是通过前端页面与认证服务器后端交互
 
-\```yml
+```yml
 
 server:
 
@@ -98,13 +98,13 @@ spring:
 
 ​      user-name-attribute: sub
 
-\```
+```
 
 
 
 security配置
 
-\```java
+```java
 
 @EnableWebSecurity(debug = true)
 
@@ -140,13 +140,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 }
 
-\```
+```
 
 
 
-**#### 测试接口**
+#### 测试接口
 
-\```java
+```java
 
 @RestController
 
@@ -164,11 +164,11 @@ public class TestController {
 
 }
 
-\```
+```
 
 
 
-**#### 认证服务器后端主要配置**
+#### 认证服务器后端主要配置
 
 
 
@@ -180,7 +180,7 @@ yaml配置
 
 
 
-\```yml
+```yml
 
 server:
 
@@ -188,13 +188,13 @@ server:
 
 
 
-\```
+```
 
 
 
 server配置
 
-\```java
+```java
 
 @Configuration(proxyBeanMethods = false)
 
@@ -290,7 +290,7 @@ public class ServerConfig {
 
 }
 
-\```
+```
 
 
 
@@ -298,7 +298,7 @@ public class ServerConfig {
 
 接口，授权页面需要的信息
 
-\```java
+```java
 
 @RestController
 
@@ -420,17 +420,17 @@ public static class ScopeWithDescription {
 
 }
 
-\```
+```
 
 
 
 
 
-**#### 前端主要代码**
+#### 前端主要代码
 
 /oauth2/authorize/index.tsx  // 接收客户端请求，获取参数，获取系统参数
 
-\```tsx
+```tsx
 
 // 从URL获取参数
 
@@ -582,7 +582,7 @@ const onFinish: FormProps<any>['onFinish'] = (values) => {
 
 };
 
-\```
+```
 
 
 
@@ -590,7 +590,7 @@ const onFinish: FormProps<any>['onFinish'] = (values) => {
 
 api.ts
 
-\```ts
+```ts
 
 export async function consent(body: any, options?: { [key: string]: any }) {
 
@@ -648,7 +648,7 @@ export async function consent(body: any, options?: { [key: string]: any }) {
 
 
 
-/** 授权 */
+/ 授权 */
 
 export async function authorize(body: any, options?: { [key: string]: any }) {
 
@@ -714,9 +714,9 @@ export async function authorize(body: any, options?: { [key: string]: any }) {
 
 
 
-\```
+```
 
-**#### 授权流程**
+#### 授权流程
 
 
 
