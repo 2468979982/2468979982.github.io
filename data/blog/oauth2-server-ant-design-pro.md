@@ -1,4 +1,12 @@
-### 认证服务器前后端分离
+---
+title: 认证服务器前后端分离ANT DESIGN PRO
+date: 2025-06-20 16:45:49
+tags: ['OAuth2', 'SpringSecurity','AntDesignPro']
+draft: false
+authors: ['default']
+---
+
+## 认证服务器前后端分离
 
 ### 后端代码
 
