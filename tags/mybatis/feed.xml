@@ -1,0 +1,34 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>lzs39 Blog</title>
+      <link>/blog</link>
+      <description>lzs39&#39;s personal blog and website</description>
+      <language>zh-cn</language>
+      <managingEditor>2468979982@qq.com (lzs39)</managingEditor>
+      <webMaster>2468979982@qq.com (lzs39)</webMaster>
+      <lastBuildDate>Mon, 06 Mar 2023 20:26:01 GMT</lastBuildDate>
+      <atom:link href="/tags/mybatis/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>/blog/pagehelper-affects-sql-exception</guid>
+    <title>PageHelper 使用不当引发的 SQL 出现两个 limit</title>
+    <link>/blog/pagehelper-affects-sql-exception</link>
+    undefined
+    <pubDate>Mon, 06 Mar 2023 20:26:01 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>Mybatis</category><category>PageHelper</category>
+  </item>
+
+  <item>
+    <guid>/blog/mybatis-mysql-keyword</guid>
+    <title>Mybatis-plus遇到MySQL关键字如何解决</title>
+    <link>/blog/mybatis-mysql-keyword</link>
+    undefined
+    <pubDate>Wed, 18 May 2022 17:33:52 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>mybatis</category><category>java</category>
+  </item>
+
+    </channel>
+  </rss>

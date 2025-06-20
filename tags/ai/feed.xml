@@ -1,0 +1,34 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>lzs39 Blog</title>
+      <link>/blog</link>
+      <description>lzs39&#39;s personal blog and website</description>
+      <language>zh-cn</language>
+      <managingEditor>2468979982@qq.com (lzs39)</managingEditor>
+      <webMaster>2468979982@qq.com (lzs39)</webMaster>
+      <lastBuildDate>Sun, 21 Apr 2024 19:20:01 GMT</lastBuildDate>
+      <atom:link href="/tags/ai/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>/blog/spring-ai-ollama</guid>
+    <title>Spring AI 和 Ollama</title>
+    <link>/blog/spring-ai-ollama</link>
+    undefined
+    <pubDate>Sun, 21 Apr 2024 19:20:01 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringBoot</category><category>AI</category>
+  </item>
+
+  <item>
+    <guid>/blog/spring-ai</guid>
+    <title>Spring AI</title>
+    <link>/blog/spring-ai</link>
+    undefined
+    <pubDate>Sun, 21 Apr 2024 12:13:37 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringBoot</category><category>AI</category>
+  </item>
+
+    </channel>
+  </rss>

@@ -1,0 +1,344 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>lzs39 Blog</title>
+      <link>/blog</link>
+      <description>lzs39&#39;s personal blog and website</description>
+      <language>zh-cn</language>
+      <managingEditor>2468979982@qq.com (lzs39)</managingEditor>
+      <webMaster>2468979982@qq.com (lzs39)</webMaster>
+      <lastBuildDate>Fri, 20 Jun 2025 16:45:49 GMT</lastBuildDate>
+      <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>/blog/oauth2-server-ant-design-pro</guid>
+    <title>OAuth2 Server 和Ant Design Pro</title>
+    <link>/blog/oauth2-server-ant-design-pro</link>
+    undefined
+    <pubDate>Fri, 20 Jun 2025 16:45:49 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>OAuth2</category><category>SpringSecurity</category><category>AntDesignPro</category>
+  </item>
+
+  <item>
+    <guid>/blog/oauth2-vault</guid>
+    <title>如何用 Vault 保护和管理 Spring Authorization Server JWT 密钥</title>
+    <link>/blog/oauth2-vault</link>
+    undefined
+    <pubDate>Tue, 05 Nov 2024 14:32:29 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringSecurity</category><category>OAuth2</category><category>HashiCorp Vault</category>
+  </item>
+
+  <item>
+    <guid>/blog/oauth2-dynamic-client-registration</guid>
+    <title>OAuth2.0 动态注册客户端</title>
+    <link>/blog/oauth2-dynamic-client-registration</link>
+    undefined
+    <pubDate>Tue, 05 Nov 2024 14:00:29 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringSecurity</category><category>OAuth2</category>
+  </item>
+
+  <item>
+    <guid>/blog/oauth2-device-flow</guid>
+    <title>OAuth2.0设备授权流程</title>
+    <link>/blog/oauth2-device-flow</link>
+    undefined
+    <pubDate>Fri, 04 Oct 2024 12:32:29 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringSecurity</category><category>OAuth2</category>
+  </item>
+
+  <item>
+    <guid>/blog/spring-ai-ollama</guid>
+    <title>Spring AI 和 Ollama</title>
+    <link>/blog/spring-ai-ollama</link>
+    undefined
+    <pubDate>Sun, 21 Apr 2024 19:20:01 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringBoot</category><category>AI</category>
+  </item>
+
+  <item>
+    <guid>/blog/spring-ai</guid>
+    <title>Spring AI</title>
+    <link>/blog/spring-ai</link>
+    undefined
+    <pubDate>Sun, 21 Apr 2024 12:13:37 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringBoot</category><category>AI</category>
+  </item>
+
+  <item>
+    <guid>/blog/oauth2-custom-consent-page-with-vue</guid>
+    <title>使用 Vue.js 构建 OAuth2 授权同意页面</title>
+    <link>/blog/oauth2-custom-consent-page-with-vue</link>
+    undefined
+    <pubDate>Fri, 19 Jan 2024 07:14:29 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringSecurity</category><category>OAuth2</category>
+  </item>
+
+  <item>
+    <guid>/blog/pagehelper-affects-sql-exception</guid>
+    <title>PageHelper 使用不当引发的 SQL 出现两个 limit</title>
+    <link>/blog/pagehelper-affects-sql-exception</link>
+    undefined
+    <pubDate>Mon, 06 Mar 2023 20:26:01 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>Mybatis</category><category>PageHelper</category>
+  </item>
+
+  <item>
+    <guid>/blog/spring-security-mfa</guid>
+    <title>Spring Security 多因素认证（MFA）</title>
+    <link>/blog/spring-security-mfa</link>
+    undefined
+    <pubDate>Sun, 26 Feb 2023 14:24:01 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringSecurity</category>
+  </item>
+
+  <item>
+    <guid>/blog/archunit-test</guid>
+    <title>ArchUnit：轻松测试软件架构</title>
+    <link>/blog/archunit-test</link>
+    undefined
+    <pubDate>Wed, 22 Feb 2023 11:40:29 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>JUnit5</category><category>ArchUnit</category>
+  </item>
+
+  <item>
+    <guid>/blog/oauth2-introspection-with-jwt</guid>
+    <title>Spring Security OAuth2 内省协议与 JWT 结合使用指南</title>
+    <link>/blog/oauth2-introspection-with-jwt</link>
+    undefined
+    <pubDate>Sun, 04 Dec 2022 20:14:01 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringSecurity</category><category>OAuth2</category>
+  </item>
+
+  <item>
+    <guid>/blog/oauth2-opaque-token</guid>
+    <title>Spring Security OAuth2 Opaque 令牌的简单使用指南</title>
+    <link>/blog/oauth2-opaque-token</link>
+    undefined
+    <pubDate>Sun, 13 Nov 2022 13:50:01 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringSecurity</category><category>OAuth2</category>
+  </item>
+
+  <item>
+    <guid>/blog/oauth2-token-access-restrictions</guid>
+    <title>Spring Security OAuth 2.0 授权服务器结合Redis实现获取accessToken速率限制</title>
+    <link>/blog/oauth2-token-access-restrictions</link>
+    undefined
+    <pubDate>Sat, 22 Oct 2022 12:21:50 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>OAuth2</category><category>SpringSecurity</category>
+  </item>
+
+  <item>
+    <guid>/blog/oauth2-jwk-consul-config</guid>
+    <title>将Spring Security OAuth2授权服务JWK与Consul 配置中心结合使用</title>
+    <link>/blog/oauth2-jwk-consul-config</link>
+    undefined
+    <pubDate>Mon, 17 Oct 2022 18:22:26 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringSecurity</category><category>OAuth2</category>
+  </item>
+
+  <item>
+    <guid>/blog/jwk-cache-and-rotate-key</guid>
+    <title>Spring Security OAuth2实现简单的密钥轮换及配置资源服务器JWK缓存</title>
+    <link>/blog/jwk-cache-and-rotate-key</link>
+    undefined
+    <pubDate>Mon, 12 Sep 2022 09:56:37 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringSecurity</category><category>OAuth2</category>
+  </item>
+
+  <item>
+    <guid>/blog/spring-gateway-oauth2</guid>
+    <title>将Spring Cloud Gateway 与OAuth2模式一起使用</title>
+    <link>/blog/spring-gateway-oauth2</link>
+    undefined
+    <pubDate>Sat, 13 Aug 2022 12:07:52 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>OAuth2</category><category>SpringSecurity</category>
+  </item>
+
+  <item>
+    <guid>/blog/springn-security-oidc</guid>
+    <title>Spring Security和OpenID Connect</title>
+    <link>/blog/springn-security-oidc</link>
+    undefined
+    <pubDate>Mon, 01 Aug 2022 20:35:28 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>OAuth2</category><category>SpringSecurity</category>
+  </item>
+
+  <item>
+    <guid>/blog/oauth2-login</guid>
+    <title>Spring Security OAuth2登录</title>
+    <link>/blog/oauth2-login</link>
+    undefined
+    <pubDate>Mon, 25 Jul 2022 20:01:01 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>OAuth2</category><category>SpringSecurity</category>
+  </item>
+
+  <item>
+    <guid>/blog/oauth2-pkce</guid>
+    <title>Spring Security OAuth2 带有用于代码交换的证明密钥 (PKCE) 的授权码流</title>
+    <link>/blog/oauth2-pkce</link>
+    undefined
+    <pubDate>Sun, 17 Jul 2022 12:21:50 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>OAuth2</category><category>SpringSecurity</category>
+  </item>
+
+  <item>
+    <guid>/blog/oauth2-client-model</guid>
+    <title>Spring Security OAuth2客户端凭据授权</title>
+    <link>/blog/oauth2-client-model</link>
+    undefined
+    <pubDate>Sat, 09 Jul 2022 18:22:26 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringSecurity</category><category>OAuth2</category>
+  </item>
+
+  <item>
+    <guid>/blog/persisrence-oauth2-client</guid>
+    <title>Spring Security 持久化OAuth2客户端</title>
+    <link>/blog/persisrence-oauth2-client</link>
+    undefined
+    <pubDate>Sun, 03 Jul 2022 11:55:25 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>OAuth2</category><category>SpringSecurity</category>
+  </item>
+
+  <item>
+    <guid>/blog/custom-oauth2-consent-page</guid>
+    <title>自定义OAuth2授权同意页面</title>
+    <link>/blog/custom-oauth2-consent-page</link>
+    undefined
+    <pubDate>Tue, 28 Jun 2022 11:40:29 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringSecurity</category><category>OAuth2</category>
+  </item>
+
+  <item>
+    <guid>/blog/spring-security-oauth2-jwt</guid>
+    <title>将JWT与Spring Security OAuth2结合使用</title>
+    <link>/blog/spring-security-oauth2-jwt</link>
+    undefined
+    <pubDate>Sun, 26 Jun 2022 15:58:00 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>OAuth2</category><category>SpringSecurity</category>
+  </item>
+
+  <item>
+    <guid>/blog/spring-gateway-csrf</guid>
+    <title>SpringGateway使用SpringSecurity防止CSRF攻击</title>
+    <link>/blog/spring-gateway-csrf</link>
+    undefined
+    <pubDate>Wed, 22 Jun 2022 18:49:48 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringCloud</category>
+  </item>
+
+  <item>
+    <guid>/blog/java-weekly-1</guid>
+    <title>Java Weekly 第1期</title>
+    <link>/blog/java-weekly-1</link>
+    undefined
+    <pubDate>Sun, 12 Jun 2022 17:24:47 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>weekly</category>
+  </item>
+
+  <item>
+    <guid>/blog/mybatis-mysql-keyword</guid>
+    <title>Mybatis-plus遇到MySQL关键字如何解决</title>
+    <link>/blog/mybatis-mysql-keyword</link>
+    undefined
+    <pubDate>Wed, 18 May 2022 17:33:52 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>mybatis</category><category>java</category>
+  </item>
+
+  <item>
+    <guid>/blog/factory-pattern</guid>
+    <title>设计模式-工厂方法模式</title>
+    <link>/blog/factory-pattern</link>
+    undefined
+    <pubDate>Sun, 15 May 2022 20:24:52 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>java</category>
+  </item>
+
+  <item>
+    <guid>/blog/java-ssh</guid>
+    <title>使用Java连接SSH</title>
+    <link>/blog/java-ssh</link>
+    undefined
+    <pubDate>Sun, 15 May 2022 09:24:47 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>ssh</category><category>java</category>
+  </item>
+
+  <item>
+    <guid>/blog/singleton-pattern</guid>
+    <title>设计模式-单例模式</title>
+    <link>/blog/singleton-pattern</link>
+    undefined
+    <pubDate>Wed, 11 May 2022 20:26:19 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>java</category>
+  </item>
+
+  <item>
+    <guid>/blog/spring-start-event</guid>
+    <title>SpringBoot启动完成前后执行某个方法</title>
+    <link>/blog/spring-start-event</link>
+    undefined
+    <pubDate>Tue, 10 May 2022 21:10:10 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringBoot</category>
+  </item>
+
+  <item>
+    <guid>/blog/springboot-integrate-redis</guid>
+    <title>SpringBoot整合redis</title>
+    <link>/blog/springboot-integrate-redis</link>
+    undefined
+    <pubDate>Tue, 10 May 2022 20:23:20 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringBoot</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>/blog/spring-read-resource</guid>
+    <title>Spring项目的resources目录下的文件读取</title>
+    <link>/blog/spring-read-resource</link>
+    undefined
+    <pubDate>Mon, 09 May 2022 20:50:16 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringBoot</category>
+  </item>
+
+  <item>
+    <guid>/blog/spring-mvc-annotation</guid>
+    <title>注解@PathVariable、@RequestParam、@RequestBody、@RequestHeader讲解</title>
+    <link>/blog/spring-mvc-annotation</link>
+    undefined
+    <pubDate>Mon, 09 May 2022 12:13:37 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringMvc</category>
+  </item>
+
+    </channel>
+  </rss>

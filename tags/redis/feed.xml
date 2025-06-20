@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>lzs39 Blog</title>
+      <link>/blog</link>
+      <description>lzs39&#39;s personal blog and website</description>
+      <language>zh-cn</language>
+      <managingEditor>2468979982@qq.com (lzs39)</managingEditor>
+      <webMaster>2468979982@qq.com (lzs39)</webMaster>
+      <lastBuildDate>Tue, 10 May 2022 20:23:20 GMT</lastBuildDate>
+      <atom:link href="/tags/redis/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>/blog/springboot-integrate-redis</guid>
+    <title>SpringBoot整合redis</title>
+    <link>/blog/springboot-integrate-redis</link>
+    undefined
+    <pubDate>Tue, 10 May 2022 20:23:20 GMT</pubDate>
+    <author>2468979982@qq.com (lzs39)</author>
+    <category>SpringBoot</category><category>redis</category>
+  </item>
+
+    </channel>
+  </rss>
