@@ -25,9 +25,12 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const allPosts = await getAllFilesFrontMatter('blog')
-  const filteredPosts = allPosts.filter(
-    (post) => post.draft !== true && post.tags.map((t) => kebabCase(t)).includes(params.tag)
-  )
+  const filteredPosts = allPosts.filter((post) => {
+    const normalizedTags = Array.isArray(post.tags)
+      ? post.tags.map((t) => kebabCase(t))
+      : []
+    return post.draft !== true && normalizedTags.includes(params.tag)
+  })
 
   // rss
   if (filteredPosts.length > 0) {
