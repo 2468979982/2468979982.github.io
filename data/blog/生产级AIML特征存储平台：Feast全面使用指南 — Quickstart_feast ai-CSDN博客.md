@@ -1,3 +1,15 @@
+---
+title:  生产AI/ML特征存储平台
+date: '2025-07-22 19:40:29'
+tags: ['Feast']
+draft: false
+authors: ['default']
+---
+
+
+
+
+
 生产级AI/ML特征存储平台：Feast全面使用指南 — Quickstart
 
 > Feast（Feature Store）是一个开源特征存储平台，通过帮助团队定义、管理、验证和提供生产级AI/ML特征，助力大规模生产[机器学习](https://so.csdn.net/so/search?q=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&spm=1001.2101.3001.7020)系统的运营。

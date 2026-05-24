@@ -1,3 +1,13 @@
+---
+title:  OpenFeign常见问题
+date: '2025-07-22 19:40:29'
+tags: ['OpenFeign']
+draft: false
+authors: ['default']
+---
+
+
+
 ## OpenFeign常见问题
 
 ### 1、接口返回结果为String，但是想直接装配成Object

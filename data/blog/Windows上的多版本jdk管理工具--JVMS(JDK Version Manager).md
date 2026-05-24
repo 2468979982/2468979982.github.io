@@ -1,3 +1,13 @@
+---
+title: Windows上的多版本jdk管理工具--JVMS
+date: '2025-07-22 19:40:29'
+tags: ['JVMS']
+draft: false
+authors: ['default']
+---
+
+
+
 # [Windows上的多版本jdk管理工具--JVMS(JDK Version Manager)](https://www.cnblogs.com/lkch/p/18823971)
 
 

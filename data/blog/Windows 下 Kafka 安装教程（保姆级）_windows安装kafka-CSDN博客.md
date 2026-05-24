@@ -1,3 +1,13 @@
+---
+title:  Windows下Kafka安装教程
+date: '2025-07-22 19:40:29'
+tags: ['Kafka']
+draft: false
+authors: ['default']
+---
+
+
+
 ### 一、准备工作
 
 #### ✅ 1. 安装 Java JDK（[Kafka](https://so.csdn.net/so/search?q=Kafka&spm=1001.2101.3001.7020) 依赖 Java 运行环境）

@@ -1,3 +1,13 @@
+---
+title: Springboot框架中各层
+date: '2025-05-22 19:40:29'
+tags: ['Springboot']
+draft: false
+authors: ['default']
+---
+
+
+
 1.粗略理解
 
 [View层](https://so.csdn.net/so/search?q=View%E5%B1%82&spm=1001.2101.3001.7020)(前端视图展示层), Controller层（响应用户请求）,Service层（接口，接口实现类）,DAO层，即Mapper层（抽象类：xxxMapper.java文件，具体实现在xxxMapper.xml）, Model层（实体类：xxx.java）
