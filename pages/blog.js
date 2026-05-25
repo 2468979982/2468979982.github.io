@@ -1,7 +1,9 @@
+import fs from 'fs'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import siteMetadata from '@/data/siteMetadata'
 import ListLayout from '@/layouts/ListLayout'
 import { PageSEO } from '@/components/SEO'
+import generateRss from '@/lib/generate-rss'
 
 export const POSTS_PER_PAGE = 10
 
@@ -11,6 +13,17 @@ export async function getStaticProps() {
   const pagination = {
     currentPage: 1,
     totalPages: Math.ceil(posts.length / POSTS_PER_PAGE),
+  }
+
+  // Generate RSS only once during build
+  try {
+    if (posts.length > 0) {
+      const rss = generateRss(posts)
+      fs.writeFileSync('./public/feed.xml', rss)
+      console.log('RSS feed generated: ./public/feed.xml')
+    }
+  } catch (error) {
+    console.error('Failed to generate RSS feed:', error)
   }
 
   return { props: { initialDisplayPosts, posts, pagination } }

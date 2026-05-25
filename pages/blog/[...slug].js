@@ -1,6 +1,4 @@
-import fs from 'fs'
 import PageTitle from '@/components/PageTitle'
-import generateRss from '@/lib/generate-rss'
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/lib/mdx'
 
@@ -31,11 +29,13 @@ export async function getStaticProps({ params }) {
   })
   const authorDetails = await Promise.all(authorPromise)
 
-  // rss
-  if (allPosts.length > 0) {
-    const rss = generateRss(allPosts)
-    fs.writeFileSync('./public/feed.xml', rss)
-  }
+  // rss - only generate once (moved to build script)
+  // This should be in pages/blog.js or a separate build script
+  // Disabled here to prevent build failures
+  // if (allPosts.length > 0) {
+  //   const rss = generateRss(allPosts)
+  //   fs.writeFileSync('./public/feed.xml', rss)
+  // }
 
   return { props: { post, authorDetails, prev, next } }
 }

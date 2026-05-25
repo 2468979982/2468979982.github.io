@@ -25,19 +25,27 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const allPosts = await getAllFilesFrontMatter('blog')
-  const filteredPosts = allPosts.filter((post) => {
+  
+  // Filter out invalid posts first
+  const validPosts = allPosts.filter((post) => post && post.slug)
+  
+  const filteredPosts = validPosts.filter((post) => {
     const normalizedTags = Array.isArray(post.tags)
-      ? post.tags.map((t) => kebabCase(t))
+      ? post.tags.map((t) => (t ? kebabCase(t) : '')).filter(Boolean)
       : []
     return post.draft !== true && normalizedTags.includes(params.tag)
   })
 
-  // rss
-  if (filteredPosts.length > 0) {
-    const rss = generateRss(filteredPosts, `tags/${params.tag}/feed.xml`)
-    const rssPath = path.join(root, 'public', 'tags', params.tag)
-    fs.mkdirSync(rssPath, { recursive: true })
-    fs.writeFileSync(path.join(rssPath, 'feed.xml'), rss)
+  // rss - generate in try-catch to prevent build failure
+  try {
+    if (filteredPosts.length > 0) {
+      const rss = generateRss(filteredPosts, `tags/${params.tag}/feed.xml`)
+      const rssPath = path.join(root, 'public', 'tags', params.tag)
+      fs.mkdirSync(rssPath, { recursive: true })
+      fs.writeFileSync(path.join(rssPath, 'feed.xml'), rss)
+    }
+  } catch (error) {
+    console.error(`Failed to generate RSS for tag ${params.tag}:`, error)
   }
 
   return { props: { posts: filteredPosts, tag: params.tag } }
