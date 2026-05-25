@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 # IntelliJ project files
-package-lock.json
+# package-lock.json  # 移除忽略，提交锁文件确保构建一致性
 .husky
 .idea
 *.iml
