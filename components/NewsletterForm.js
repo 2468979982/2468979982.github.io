@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 
 import siteMetadata from '@/data/siteMetadata'
 
-const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
+const NewsletterForm = ({ title = '订阅我们的简报' }) => {
   const inputEl = useRef(null)
   const [error, setError] = useState(false)
   const [message, setMessage] = useState('')
@@ -24,14 +24,14 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
     const { error } = await res.json()
     if (error) {
       setError(true)
-      setMessage('Your e-mail address is invalid or you are already subscribed!')
+      setMessage('邮箱地址无效或您已订阅！')
       return
     }
 
     inputEl.current.value = ''
     setError(false)
     setSubscribed(true)
-    setMessage('Successfully! 🎉 You are now subscribed.')
+    setMessage('订阅成功！🎉 您已成功订阅。')
   }
 
   return (
@@ -40,14 +40,14 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
       <form className="flex flex-col sm:flex-row" onSubmit={subscribe}>
         <div>
           <label className="sr-only" htmlFor="email-input">
-            Email address
+            电子邮箱
           </label>
           <input
             autoComplete="email"
             className="w-72 rounded-md px-4 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:bg-black"
             id="email-input"
             name="email"
-            placeholder={subscribed ? "You're subscribed !  🎉" : 'Enter your email'}
+            placeholder={subscribed ? '已订阅 ! 🎉' : '请输入您的邮箱'}
             ref={inputEl}
             required
             type="email"
@@ -62,7 +62,7 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
             type="submit"
             disabled={subscribed}
           >
-            {subscribed ? 'Thank you!' : 'Sign up'}
+            {subscribed ? '感谢订阅' : '提交订阅'}
           </button>
         </div>
       </form>

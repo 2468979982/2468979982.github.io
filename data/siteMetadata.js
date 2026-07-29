@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'lzs39 Blog',
+  title: 'lzs39 博客',
   author: 'lzs39',
   headerTitle: 'lzs39',
-  description: "lzs39's personal blog and website",
+  description: 'lzs39 的个人博客和网站',
   language: 'zh-cn',
   theme: 'system', // system, dark or light
   siteUrl: '',

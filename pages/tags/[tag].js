@@ -25,10 +25,10 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const allPosts = await getAllFilesFrontMatter('blog')
-  
+
   // Filter out invalid posts first
   const validPosts = allPosts.filter((post) => post && post.slug)
-  
+
   const filteredPosts = validPosts.filter((post) => {
     const normalizedTags = Array.isArray(post.tags)
       ? post.tags.map((t) => (t ? kebabCase(t) : '')).filter(Boolean)
@@ -58,7 +58,7 @@ export default function Tag({ posts, tag }) {
     <>
       <TagSEO
         title={`${tag} - ${siteMetadata.author}`}
-        description={`${tag} tags - ${siteMetadata.author}`}
+        description={`${tag} 标签 - ${siteMetadata.author}`}
       />
       <ListLayout posts={posts} title={title} />
     </>
